@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		31F4E0A21A309BAB00A21D3B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31F4E0A11A309BAB00A21D3B /* main.cpp */; };
+		31F4E0AA1A309BDC00A21D3B /* GameBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31F4E0A81A309BDC00A21D3B /* GameBoard.cpp */; };
+		31F4E0C01A31B48300A21D3B /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31F4E0BE1A31B48300A21D3B /* Game.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		31F4E09E1A309BAB00A21D3B /* Tic Tac Toe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tic Tac Toe"; sourceTree = BUILT_PRODUCTS_DIR; };
-		31F4E0A11A309BAB00A21D3B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		31F4E0A11A309BAB00A21D3B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; usesTabs = 0; };
+		31F4E0A81A309BDC00A21D3B /* GameBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameBoard.cpp; sourceTree = "<group>"; };
+		31F4E0A91A309BDC00A21D3B /* GameBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBoard.h; sourceTree = "<group>"; };
+		31F4E0BE1A31B48300A21D3B /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		31F4E0BF1A31B48300A21D3B /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				31F4E0A11A309BAB00A21D3B /* main.cpp */,
+				31F4E0BF1A31B48300A21D3B /* Game.h */,
+				31F4E0BE1A31B48300A21D3B /* Game.cpp */,
+				31F4E0A91A309BDC00A21D3B /* GameBoard.h */,
+				31F4E0A81A309BDC00A21D3B /* GameBoard.cpp */,
 			);
 			path = "Tic Tac Toe";
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31F4E0C01A31B48300A21D3B /* Game.cpp in Sources */,
+				31F4E0AA1A309BDC00A21D3B /* GameBoard.cpp in Sources */,
 				31F4E0A21A309BAB00A21D3B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
